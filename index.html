@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bebop Inc</title>
+    <style>
+      body {
+        background: #000;
+        color: #eee;
+        font-family: monospace;
+        margin: 0;
+      }
+      #root {
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      .resources div {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      button {
+        background: #111;
+        border: 1px solid #444;
+        color: #eee;
+        padding: 6px 12px;
+        margin: 0 10px 10px 0;
+        cursor: pointer;
+        transition: background 0.2s ease, transform 0.1s ease;
+        display: block;
+      }
+      button:hover:not(:disabled) {
+        background: #222;
+      }
+      button:active:not(:disabled) {
+        transform: scale(0.98);
+      }
+      button:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+      .lore p {
+        margin: 0 0 5px 0;
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+      }
+      .actions button {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .minigame .bar {
+        position: relative;
+        height: 20px;
+        background: #222;
+        margin-bottom: 10px;
+      }
+      .minigame .target {
+        position: absolute;
+        left: 40%;
+        width: 20%;
+        height: 100%;
+        background: #333;
+      }
+      .minigame .slider {
+        position: absolute;
+        top: 0;
+        width: 5%;
+        height: 100%;
+        background: #0f0;
+      }
+      .tree .tier {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .tree .tier button {
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
