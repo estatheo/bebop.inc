@@ -8,3 +8,4 @@
 - "Back at the base."
 - "You trade minerals for a credit."
 - "A drone hums to life, mining for you."
+

@@ -29,6 +29,7 @@ This document tracks the progress and tasks for building the Bebop Inc browser i
 - [x] Add upgrade tree screen with unlockable nodes
 - [x] Expand minigame with oxygen timer and enemy encounters
 
+
 ### React App Infrastructure
 - [x] Configure npm project with Vite dev server (`npm run dev`)
 
