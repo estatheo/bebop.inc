@@ -1,10 +1,10 @@
 export const loreMessages = {
   start: "You are stranded at a small base.",
-  travelAsteroid: "You arrive at a lonely asteroid.",
+  travel_asteroid: "You arrive at a lonely asteroid.",
+  travel_iceField: "A frozen field of ice stretches out.",
+  travel_gasCloud: "Swirling gas envelops your craft.",
+  travel_rareMetalAsteroid: "Rich veins shimmer in the darkness.",
   returnBase: "Back at the base.",
-  cargoFull: "Your cargo is full.",
-  upgradeTools: "Your tools gleam brighter.",
-  upgradeMovement: "You feel lighter in the void.",
-  upgradeCargo: "Your cargo holds more.",
-  foreshadow: "A faint whisper hints at others in the dark..."
+  trade: "You trade minerals for a credit.",
+  droneBought: "A drone hums to life, mining for you.",
 };

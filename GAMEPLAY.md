@@ -1,13 +1,14 @@
 # Gameplay Mechanics
 
-## Mine Resource (Manual Click / Auto)
-- **Manual Mining**: Player clicks the *Mine* button to collect 1 Ore per action.
-- **Automated Mining**: Future upgrades unlock drones or miners that automatically harvest ore on a timer.
+## Mine Resource (Minigame / Auto)
+- **Manual Mining**: Player dives into a timed mining sequence with limited oxygen and a laser tool. Clearing rocks before the timer expires yields resources, while occasional enemies drop scrap for additional upgrades.
+- **Automated Mining**: Drones automatically harvest minerals each second once purchased.
 - **Balancing**: Manual mining establishes early engagement; automation rewards progression while freeing the player to explore other systems.
 
 ## Spend Resource
-- **Construct Miners/Drones/Stations**: Invest ore or credits to build units that increase mining throughput.
-- **Upgrade Efficiency**: Spend resources to improve mining yields, shortening cycle times or granting more ore per action.
+- **Construct Miners/Drones/Stations**: Invest minerals or credits to build units that increase mining throughput.
+- **Upgrade Efficiency**: Spend resources to improve mining yields.
+- **Upgrade Tree**: Credits unlock nodes on a branching tree, granting new abilities.
 - **Strategic Choices**: Players must decide between building more units or upgrading existing equipment.
 
 ## Expand
@@ -16,7 +17,7 @@
 - **Progression Curve**: Expansion opens additional mechanics and story arcs, keeping long‑term goals in sight.
 
 ## Gameplay Loop Concepts
-1. **Gather**: Mine ore manually or via automation.
+1. **Gather**: Mine resources manually or via automation.
 2. **Spend**: Use resources for upgrades or new structures.
 3. **Unlock**: Access new locations, resources, and narrative layers.
 4. **Repeat**: Each loop introduces fresh goals, maintaining engagement and a sense of growth.

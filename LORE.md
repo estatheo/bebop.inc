@@ -2,9 +2,10 @@
 
 - "You are stranded at a small base."
 - "You arrive at a lonely asteroid."
+- "A frozen field of ice stretches out."
+- "Swirling gas envelops your craft."
+- "Rich veins shimmer in the darkness."
 - "Back at the base."
-- "Your cargo is full."
-- "Your tools gleam brighter."
-- "You feel lighter in the void."
-- "Your cargo holds more."
-- "A faint whisper hints at others in the dark..."
+- "You trade minerals for a credit."
+- "A drone hums to life, mining for you."
+
